@@ -161,8 +161,7 @@ export default {
             { id: '127', tag: 'livingroom', src: require('../../assets/img/project/projects_livingroom5.png'), alt: 'livingroom thirty-one', firstparagraph: 'Modern Livingroom', secondparagraph: 'Decor / Artchitecture'},
             { id: '128', tag: 'livingroom', src: require('../../assets/img/project/projects_livingroom6.png'), alt: 'livingroom thirty-two', firstparagraph: 'Modern Livingroom', secondparagraph: 'Decor / Artchitecture'}
         ],
-        currentCategoryList:
-        [
+        currentCategoryList:[
             { id: '65', tag: 'kitchen', src: require('../../assets/img//project/projects_kitchen1.png'), alt: 'kitchen one', firstparagraph: 'Modern Kitchen', secondparagraph: 'Decor / Artchitecture' },
             { id: '66', tag: 'kitchen', src: require('../../assets/img//project/projects_kitchen2.png'), alt: 'kitchen two', firstparagraph: 'Modern Kitchen', secondparagraph: 'Decor / Artchitecture' },
             { id: '67', tag: 'kitchen', src: require('../../assets/img//project/projects_kitchen3.png'), alt: 'kitchen three', firstparagraph: 'Modern Kitchen', secondparagraph: 'Decor / Artchitecture' },

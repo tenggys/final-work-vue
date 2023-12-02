@@ -23,6 +23,7 @@
 
 <script>
 import { mapGetters } from 'vuex';
+import '@/assets/css/styleComponents/blog_article_cardComp.css';
 
 export default {
     name: 'BlogArticleCardComp',
@@ -39,18 +40,6 @@ export default {
 </script>
 
 <style>
-
-.news__items{
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 27px;
-}
-
-.center {
-  padding-left: calc(50% - 600px);
-  padding-right: calc(50% - 600px);
-}
 
 </style>
 

@@ -15,32 +15,13 @@
 </template>
 
 <script>
+import '@/assets/css/styleComponents/navigation_comp.css';
+
 export default {
     name: 'NavigationComp',
 };
 </script>
 
-<style lang="css" scoped>
-ul {
-  padding: 0;
-  list-style: none;
-}
-a {
-    text-decoration: none;
-}
-.nav__list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 50px;
-}
+<style>
 
-.nav__link {
-    font-family: Jost;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 25px;
-    letter-spacing: 0em;
-    text-align: center;
-    color: #292F36;
-}
 </style>

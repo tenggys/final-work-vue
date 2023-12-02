@@ -11,6 +11,7 @@
 
 <script>
 import NavigationComp from './NavigationComp.vue';
+import '@/assets/css/styleComponents/header_comp.css'
 
 export default {
     name: 'HeaderComp',
@@ -20,37 +21,6 @@ export default {
 };
 </script>
 
-<style lang="css" scoped>
+<style>
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body {
-    background: #FFFFFF;
-}
-
-
-a {
-    text-decoration: none;
-}
-
-.container {
-    margin: 0 auto;
-    max-width: 1200px;
-}
-
-.header {
-    margin-top: 44px;
-    padding-top: 12.5px;
-    padding-bottom: 12.5px;
-    margin-bottom: 57px;
-}
-
-.header__flex {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 </style>
